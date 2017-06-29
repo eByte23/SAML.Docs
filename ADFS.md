@@ -96,8 +96,13 @@ put manual details here
 
 ### Create your **NameID** Claims rule:
 
+Follow the documenation by microsoft [here](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/create-a-rule-to-transform-an-incoming-claim).
 
+The Incoming Claim type should be the value you want to give to the `Relying Trust` e.g. UPN
 
+The Outgoing Claim type should be `NameId` with an outgoing NameID Format that is relavant to the incoming claim type.
+e.g. Email as incoming claim then you should use Email as the Outgoing NameID Format
+or UPN use Persistent. If in doubt and the value that you are passing through to is a persistent value use Persistent
 
 
 
