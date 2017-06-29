@@ -113,6 +113,6 @@ or UPN use Persistent. If in doubt and the value that you are passing through to
 ADFS uses a standard metadata url format `https://{subdomain.yourdomain.com}/FederationMetadata/2007-06/FederationMetadata.xml`
 
 For Example:
->[```https://fs.wastemanagement.co.nz/FederationMetadata/2007-06/FederationMetadata.xml```](https://fs.wastemanagement.co.nz/FederationMetadata/2007-06/FederationMetadata.xml)
+>[```https://login.microsoftonline.com/common/federationmetadata/2007-06/federationmetadata.xml```](https://login.microsoftonline.com/common/federationmetadata/2007-06/federationmetadata.xml)
 
 
