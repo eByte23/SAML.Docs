@@ -1,5 +1,8 @@
 #### IDP to dos'
 
+azure ad
+- https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-saml-protocol-reference
+
 Citrix Netscaler
 - https://support.citrix.com/article/CTX200177
 - https://support.citrix.com/article/CTX133919?recommended

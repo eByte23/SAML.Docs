@@ -16,17 +16,17 @@ Thus some words to keep in mind.
 On the IDP you must setup a `Relying Party Trust`.
 To do this you will need to connect or login the **ADFS** server and open `AD FS Management`.
 
-![AD FS Management Console Window](./images/ADFS_management_console.jpg)
+![AD FS Management Console Window](/images/ADFS/ADFS_management_console.jpg)
 #### AD FS Management Console Window :
 
 On the right-hand side click `Add Relying Party Trust`
 
-![Add Relying Party Trust Window](./images/ADFS_create_rpt_1.jpg)
+![Add Relying Party Trust Window](/images/ADFS/ADFS_create_rpt_1.jpg)
 #### Add `Relying Party Trust` Window :
 You will normally* want to use the first option `Claims Aware` to create a `Relying Party Trust` that is connecting to a claims aware `Relying Party`
 
 
-![Import data about the `Relying Party`](./images/ADFS_create_rpt_claims_aware_2.jpg)
+![Import data about the `Relying Party`](/images/ADFS/ADFS_create_rpt_claims_aware_2.jpg)
 #### Import data about the `Relying Party` :
 
 This where you can use a `metadata` url, `metadata` xml document or manually define the information about the `Relying Party`
@@ -40,7 +40,7 @@ Also when validating Assertion signatures by default most providers want Valid C
 3. Manually defined configuration
 
 #### The first step following your import type:
-![alt](./images/ADFS_create_rpt_claims_aware_3_set_display_name.jpg)
+![alt](/images/ADFS/ADFS_create_rpt_claims_aware_3_set_display_name.jpg)
 #### Enter a Friendly/Display Name and Notes:
 After importing the metadata you will be prompted to enter a
 friendly/display name and notes for the current `Relying Party` you are creating.
@@ -48,7 +48,7 @@ friendly/display name and notes for the current `Relying Party` you are creating
 
 #### Using options 1 & 2 the following steps are the same:
 
-![Set user access restrictions window](./images/ADFS_create_rpt_claims_aware_4_user_access_restriction.jpg)
+![Set user access restrictions window](/images/ADFS/ADFS_create_rpt_claims_aware_4_user_access_restriction.jpg)
 
 #### Set user access restrictions:
 
@@ -59,32 +59,32 @@ Configure then click next.
 
 #### Setup Overview of your current `Relying Party`
 #### Overview when using url metadata:
-![Setup Overview](./images/ADFS_create_rpt_claims_aware_5_url_overview.jpg)
+![Setup Overview](/images/ADFS/ADFS_create_rpt_claims_aware_5_url_overview.jpg)
 
 #### Overview when using xml or manually defined metadata:
-![Setup Overview](./images/ADFS_create_rpt_claims_aware_5_xml_overview.jpg)
+![Setup Overview](/images/ADFS/ADFS_create_rpt_claims_aware_5_xml_overview.jpg)
 
 
 #### Overview Identifiers:
-![Setup Overview of identifiers settings](./images/ADFS_create_rpt_claims_aware_6_overview_identifiers.jpg)
+![Setup Overview of identifiers settings](/images/ADFS/ADFS_create_rpt_claims_aware_6_overview_identifiers.jpg)
 
 #### Overview encryption:
-![Setup Overview of encryption settings](./images/ADFS_create_rpt_claims_aware_7_overview_encryption.jpg)
+![Setup Overview of encryption settings](/images/ADFS/ADFS_create_rpt_claims_aware_7_overview_encryption.jpg)
 
 #### Overview signature:
-![Setup Overview of signature settings](./images/ADFS_create_rpt_claims_aware_8_overview_signature.jpg)
+![Setup Overview of signature settings](/images/ADFS/ADFS_create_rpt_claims_aware_8_overview_signature.jpg)
 
 #### Overview accepted claims:
-![Setup Overview of accepted settings](./images/ADFS_create_rpt_claims_aware_9_overview_accepted_claims.jpg)
+![Setup Overview of accepted settings](/images/ADFS/ADFS_create_rpt_claims_aware_9_overview_accepted_claims.jpg)
 
 #### Overview organization:
-![Setup Overview of organization settings](./images/ADFS_create_rpt_claims_aware_10_overview_organization.jpg)
+![Setup Overview of organization settings](/images/ADFS/ADFS_create_rpt_claims_aware_10_overview_organization.jpg)
 
 #### Overview endpoints:
-![Setup Overview of endpoints settings](./images/ADFS_create_rpt_claims_aware_11_overview_endpoints.jpg)
+![Setup Overview of endpoints settings](/images/ADFS/ADFS_create_rpt_claims_aware_11_overview_endpoints.jpg)
 
 #### Overview advanced:
-![Setup Overview of advanced settings](./images/ADFS_create_rpt_claims_aware_12_overview_advanced_sig_alg.jpg)
+![Setup Overview of advanced settings](/images/ADFS/ADFS_create_rpt_claims_aware_12_overview_advanced_sig_alg.jpg)
 
 
 #### Using option 3:
