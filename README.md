@@ -12,7 +12,7 @@ I hope that this documentation will be able to help someone else to use the madn
 Here I will talk specifically about **[SAML 2.0](https://www.oasis-open.org/standards#samlv2.0)**
 
 
-This also you to create a standard well known configuration file or endpoints on how to connect to your IDP (Identity Provider) or SP (Server Provider).
+This also allows you to create a standard well known configuration file or endpoints on how to connect to your IDP (Identity Provider) or SP (Server Provider).
 This standard configuration file is normally know as 'Metadata' some other services have sightly differing names for it e.g. **ADFS** (Active Directory Federation Services)
 calls in 'FederationMetadata' for reasons I will not get into here (see **[ADFS](./ADFS.md)** for more).
 
