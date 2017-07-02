@@ -98,16 +98,24 @@ put manual details here
 
 Follow the documenation by microsoft [here](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/create-a-rule-to-transform-an-incoming-claim).
 
-The Incoming Claim type should be the value you want to give to the `Relying Trust` e.g. UPN
+The Incoming Claim type should be the value you want to give to the `Relying Party` e.g. UPN
 
 The Outgoing Claim type should be `NameId` with an outgoing NameID Format that is relavant to the incoming claim type.
 e.g. Email as incoming claim then you should use Email as the Outgoing NameID Format
 or UPN use Persistent. If in doubt and the value that you are passing through to is a persistent value use Persistent
 
+![Calims rule screen shot](./images/ADFS/claims_rule_nameid.jpg)
 
 
 
 ## <a name="adfs-power-users"></a> **ADFS** PowerUsers
+For the people more inclinded to use scripting or automation you can create and setup a `Relying Party Trust` via **Powershell**
+
+ADFS's default settings are set to a more high security setup. If you need to be able to accept assertions/request that use a Self Signed Certificate unsigned requests or other various settings which do not appear to be availble in the UI, then you will need to change the `Relying Party` settings via powershell.
+
+`TODO: add info an examples for powershell`
+
+
 
 ## ADFS Metadata link
 ADFS uses a standard metadata url format `https://{subdomain.yourdomain.com}/FederationMetadata/2007-06/FederationMetadata.xml`
