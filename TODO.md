@@ -11,6 +11,7 @@ Citrix Netscaler
 - https://support.citrix.com/article/CTX133919
 - https://blogs.serioustek.net/post/2016/11/10/netscaler-saml-okta
 - https://www.citrix.com/content/dam/citrix/en_us/documents/guide/integrating-pingfederate-with-netscaler-as-saml-sp.pdf
+- https://support.citrix.com/article/CTX200323
 
 
 SimpleSAMLphp   -
